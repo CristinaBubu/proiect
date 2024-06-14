@@ -1,14 +1,41 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page title</title>
+    <meta name="theme-color" content="#ffffff" />
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+    <title>Tasty Treats</title>
     <link rel="stylesheet" href="./sass/index.scss" />
-    <script type="module" src="./index.js"></script>
   </head>
   <body>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/example.html"></include>
+    <main>
+        <include src="./components/header-cristina/header.html"></include>
+      <include src="./components/hero-ramon/hero.html"></include>
+<section class="Home">
+        <div class="container-home container">
+          <div>
+            <include src="./components/all_categories-aimee/categories.html"></include>
+            <include
+              src="./components/popular_recipes-aimee/popularRecipes.html"
+            ></include>
+          </div>
+  
+          <div class="home-conteiner">  
+            <include src="./components/go_up-catalin/go_up-catalin.html"></include>
+  
+            <include
+              src="./components/search_bar-marian/search_bar.html"
+            ></include>
+            <include src="./components/cards-marian/cards-marian.html"></include>
+            <include src="./components/footer-cristina/footer-cristina.html"></include>
+            <include src="./components/rating_modal-alina/rating.html"></include>
+            <include src="./components/OrderNow/OrderNow.html"></include> 
+            <include src="./components/recipe_modal-alina/modal_recipe.html"></include>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="./index.js"></script>
   </body>
 </html>
