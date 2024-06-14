@@ -1,7 +1,7 @@
 
 import { popularRecipesRendering } from './components/popular_recipes-aimee/popularRecipes.js';
 
-
+import './components/popular_recipes-aimee/popularRecipes.js';
 import './components/header-cristina/header-menu.js';
 import './components/all_categories-aimee/categories.js';
 import './components/hero-ramon/swiper.js';
