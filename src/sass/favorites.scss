@@ -43,9 +43,10 @@
 }
 
 .thumb {
-  border-radius: 4%;
+  border-radius: 20%;
   overflow: hidden;
 }
+
 
 .block-for-empty {
   display: flex;
@@ -169,6 +170,8 @@ border: 1px solid #050505;
   width: 100%;
   overflow: hidden;
 }
+
+
 .fav-category-block {
   display: flex;
   gap: 0px 15px;
