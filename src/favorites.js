@@ -1,4 +1,4 @@
-import './components/header-cristina/Header.js';
+import './components/header-cristina/header.js';
 import './components/header-cristina/header-menu.js';
 import './components/favorites-george/Favorites.js';
 import './components/OrderNow/OrderNow.js';
