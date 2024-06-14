@@ -42,5 +42,8 @@
 <symbol id="icon-x-filters" viewBox="0 0 32 32">
 <path fill="none" stroke="#9bb537" style="stroke: var(--color1, #9bb537)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3" d="M24 8l-16 16M8 8l16 16"></path>
 </symbol>
+ <symbol id="icon-shopping-cart-03" viewBox="0 0 24 24">
+      <path fill="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 14h13.136c1.013 0 1.519 0 1.922-.189a2 2 0 0 0 .858-.768c.232-.38.288-.883.4-1.89l.585-5.265c.034-.307.051-.461.002-.58a.498.498 0 0 0-.22-.246C21.57 5 21.416 5 21.106 5H4.5M2 2h1.248c.265 0 .397 0 .5.05a.5.5 0 0 1 .217.203c.057.1.065.232.081.496l.906 14.5c.016.264.025.396.081.496.05.088.125.159.217.204.104.05.236.05.5.05h13.248M7.5 21.5h.01m8.99 0h.01M8 21.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm9 0a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z"/>
+    </symbol>
   </defs>
 </svg>

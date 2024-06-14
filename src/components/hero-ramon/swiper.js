@@ -1,5 +1,4 @@
 import Swiper from 'swiper';
-//import { Pagination, Navigation, Autoplay, Parallax } from 'swiper';
 import 'swiper/swiper-bundle.min.css';
 
 const sliderContainer = document.querySelector('.events');
