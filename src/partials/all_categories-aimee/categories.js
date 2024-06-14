@@ -1,8 +1,8 @@
 import { debounce } from 'lodash';
 import Notiflix from 'notiflix';
-import { createGalleryCard } from '../cards-marian/galleryCard';
-import { axiosRecipes } from './axiosRecipes';
-import { axiosCard } from './axiosCategories';
+import { createGalleryCard } from '../cards-marian/gallery_card';
+import { axiosRecipes } from './axios_recipes';
+import { axiosCard } from './axios_allcategories';
 
 const BASE_URL = 'https://tasty-treats-backend.p.goit.global/api/';
 const categoriesRef = 'categories';

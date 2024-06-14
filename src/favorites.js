@@ -1,7 +1,7 @@
-import './components/header-cristina/header.js';
-import './components/header-cristina/header-menu.js';
-import './components/favorites-george/Favorites.js';
-import './components/OrderNow/OrderNow.js';
-import './components/go_up-catalin/go_up-catalin.js';
-import './components/recipe_modal-alina/modal_recipe.js';
-import './components/footer-cristina/footer_modal-cristina.js';
+import './partials/header-cristina/dark-mode.js';
+import './partials/header-cristina/mobile-menu.js';
+import './partials/favorites-george/favorites.js';
+import './partials/hero_modal-ramon/OrderNow.js';
+import './partials/go_up-catalin/go_up-catalin.js';
+import './partials/recipe_modal-alina/modal_recipe.js';
+import './partials/footer-cristina/footer_modal-cristina.js';

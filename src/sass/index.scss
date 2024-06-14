@@ -1,15 +1,15 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
 
-@import '../components/rating_modal-alina/_rating.scss';
-@import '../components/popular_recipes-aimee/PopularRecipes.scss';
-@import '../components/cards-marian/_cards-marian.scss';
-@import '../components/header-cristina/_header.scss';
-@import '../components/all_categories-aimee/_categories.scss';
-@import '../components/hero-ramon/_hero.scss';
-@import '../components/OrderNow/OrderNow.scss';
-@import '../components/recipe_modal-alina/_modal_recipe.scss';
-@import '../components/footer-cristina/_footer-cristina.scss';
-@import '../components/go_up-catalin/_go_up-catalin.scss';
+@import '../partials/rating_modal-alina/_rating.scss';
+@import '../partials/popular_recipes-aimee/popular_recipes.scss';
+@import '../partials/cards-marian/_cards-marian.scss';
+@import '../partials/header-cristina/_header.scss';
+@import '../partials/all_categories-aimee/_categories.scss';
+@import '../partials/hero-ramon/_hero.scss';
+@import '../partials/hero_modal-ramon/OrderNow.scss';
+@import '../partials/recipe_modal-alina/_modal_recipe.scss';
+@import '../partials/footer-cristina/_footer-cristina.scss';
+@import '../partials/go_up-catalin/_go_up-catalin.scss';
 
 [data-theme="dark"] .reset-filter{
   background-color: #161616;

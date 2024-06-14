@@ -1,15 +1,13 @@
 
-import { popularRecipesRendering } from './components/popular_recipes-aimee/PopularRecipes.js';
+import { popularRecipesRendering } from './partials/popular_recipes-aimee/popular_recipes.js';
 
-
-import './components/header-cristina/header-menu.js';
-import './components/all_categories-aimee/categories.js';
-import './components/hero-ramon/swiper.js';
-import './components/OrderNow/OrderNow.js';
-import './components/recipe_modal-alina/modal_recipe.js';
-import './components/go_up-catalin/go_up-catalin.js';
-import './components/rating_modal-alina/rating.js';
-import './components/footer-cristina/footer_modal-cristina.js';
-import './components/header-cristina/header.js';
-
-import './components/popular_recipes-aimee/PopularRecipes.js'
+import './partials/header-cristina/mobile-menu.js';
+import './partials/all_categories-aimee/categories.js';
+import './partials/hero-ramon/swiper.js';
+import './partials/hero_modal-ramon/OrderNow.js';
+import './partials/recipe_modal-alina/modal_recipe.js';
+import './partials/go_up-catalin/go_up-catalin.js';
+import './partials/rating_modal-alina/rating.js';
+import './partials/footer-cristina/footer_modal-cristina.js';
+import './partials/header-cristina/dark-mode.js';
+import './partials/popular_recipes-aimee/popular_recipes.js'
