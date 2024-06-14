@@ -1,27 +1,64 @@
-<section class="hero" >
-    <div class="container hero-container ">
-    <div class="hero-text-wrapper hero-wrap">
-      <div class="title-wrap">
+<section class="hero">
+  <div class="hero-container">
+    <div class="hero-left-side animate animate-left">
+      <div class="hero-text-container">
         <h1 class="hero-title">
           Learn to Cook
-          <span class="hero-title-green">Tasty Treats'</span> Customizable
-          Masterclass
+          <span class="hero-span">Tasty Treats'</span>
+          Customizable Masterclass
         </h1>
-        <p class="hero-text">
-          TastyTreats - Customize Your Meal with Ingredient <br />Options
-          andStep-by-Step Video Guides.
+        <p class="hero-information">
+          TastyTreats - Customize Your Meal with Ingredient Options and
+          Step-by-Step Video Guides.
         </p>
-        <button type="button" class="order-btn btnOrderNow" data-id="6462a8f74c3d0ddd28897fc1" >
-          Order now
-        </button>
       </div>
-      <div class="case">
-        <div class="swiper">
-          <div class="events swiper-wrapper"></div>
+      <button type="button" class="hero-button order">Order now</button>
+    </div>
+    <!-- SLIDESHOW -->
+    <div class="slideshow animate animate-right">
+      <!-- slide wrapper -->
+      <div class="slide-wrapper">
+        <div class="slider">
+          <!-- slide-nav -->
+          <input type="radio" name="radio-btn" id="radio1" />
+          <input type="radio" name="radio-btn" id="radio2" />
+          <input type="radio" name="radio-btn" id="radio3" />
+          <div class="slide first" id="slide-1">
+            <div class="slider-container-first"></div>
+            <p class="slider-container-second">
+              Grilled, smoky, delicious barbecue
+            </p>
+            <div class="slider-container-third"></div>
+          </div>
+          <div class="slide" id="slide-2">
+            <div class="slider-second-container-first"></div>
+            <p class="slider-second-container-second">
+              Hot, cheesy and satisfying pizza
+            </p>
+            <div class="slider-second-container-third"></div>
+          </div>
+          <div class="slide" id="slide-3">
+            <div class="slider-third-container-first"></div>
+            <p class="slider-third-container-second">
+              Fluffy and sweet pancakes
+            </p>
+            <div class="slider-third-container-third"></div>
+          </div>
+          <!-- auto nav -->
+           <!-- TESTING AUTO NAV -->
+          <div class="auto-nav">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+          </div>
         </div>
-        <div class="slider-pagination"></div>
+      <!-- manual nav -->
+      <div class="manual-nav">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
       </div>
     </div>
+    
   </div>
-  </section>
-  
+</section>

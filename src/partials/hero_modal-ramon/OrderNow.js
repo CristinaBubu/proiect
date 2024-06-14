@@ -1,54 +1,41 @@
-const modal = document.getElementById('myModal');
-const btn = document.getElementById('openModal');
-const btnOrderNow = document.querySelector('.btnOrderNow')
-const closeBtn = document.getElementsByClassName('close')[0];
-const form = document.querySelector('.modal-form-stl');
-const messageBox = document.getElementById('messageBox');
-const messageText = document.getElementById('messageText');
-const okButton = document.getElementById('okButton');
-const thanksBox = document.getElementById('thanksBox');
-const closeThanksButton = document.getElementById('closeThanksButton');
-
-btn.addEventListener('click',(()=>{
-  modal.classList.add('is-hidden');
-}
-
-)) 
-if(btnOrderNow){
-  btnOrderNow.addEventListener('click',(()=>{
-  modal.classList.remove('is-hidden');
-})) 
-}
-
-closeBtn.onclick = function () {
-  modal.classList.add('is-hidden');
-
-};
-
-window.addEventListener('click',closemod)
-function closemod (e){
-  if (e.target === modal) {
-  modal.classList.add('is-hidden');
-  }
-
-}
-
-form.addEventListener('submit', function (event) {
-  event.preventDefault();
-
-  modal.style.display = 'none';
-  thanksBox.style.display = 'block';
+const modalOpenClose = () => {
+  const openModalBtn = document.querySelector('.order');
+  const closeModalBtn = document.querySelector('.close');
+  const modal = document.querySelector('[data-modal]');
+  const modalContent = document.querySelector('.modal');
+  
+openModalBtn.addEventListener('click', toggleModal);
+closeModalBtn.addEventListener('click', event => {
+  event.stopPropagation();
+  toggleModal();
 });
-
-okButton.onclick = function () {
-  messageBox.style.display = 'none';
+modalContent.addEventListener('click', event => {
+  event.stopPropagation();
+});
+modal.addEventListener('click', event => {
+  event.stopPropagation();
+  toggleModal();
+});
+document.addEventListener('keydown', function (event) {
+  if (event.key === 'Escape') {
+    if (!modal.classList.contains('is-hidden')) {
+      toggleModal();
+    }
+  }
+});
+function toggleModal() {
+  modal.classList.toggle('is-hidden');
+  if (modal.classList.contains('is-hidden')) {
+    document.body.style.overflow = '';
+  } else {
+    document.body.style.overflow = 'hidden';
+  }
+}
 };
 
-closeThanksButton.onclick = function () {
-  thanksBox.style.display = 'none';
+modalOpenClose();
 
-  form.reset();
-};
+
 
 
 
