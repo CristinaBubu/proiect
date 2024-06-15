@@ -483,7 +483,7 @@ const ratingInputs = document.querySelectorAll('.star-input');
 const submitButton = document.querySelector('.rating-email-btn');
 
 
-export function  modalRatingOpCl(giveRating, modalRecipeBackDrop) {
+function  modalRatingOpCl(giveRating, modalRecipeBackDrop) {
 
   const ratingBackdrop = document.querySelector('.rating-backdrop');
 
