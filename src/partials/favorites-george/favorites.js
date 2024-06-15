@@ -483,16 +483,7 @@ const ratingInputs = document.querySelectorAll('.star-input');
 const submitButton = document.querySelector('.rating-email-btn');
 
 
-function modalRatingOpCl(giveRating, modalRecipeBackDrop) {
 
-  const ratingBackdrop = document.querySelector('.rating-backdrop');
-
-  giveRating.addEventListener('click', (e) => {
-    submitButton.id = e.target.id;
-    ratingBackdrop.classList.remove('visible');
-    modalRecipeBackDrop.classList.add('visible');
-  });
-}
 
 
 
