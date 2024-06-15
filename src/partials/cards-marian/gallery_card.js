@@ -33,7 +33,7 @@ export function createGalleryCard(searchResults) {
       </div>
       <button type="button" id='${_id}' class="btn-see-recipe">See recipe</button>
       <div class = "rating">
-      <div class="rating-value">${rating.toString().slice(0,3)}</div>
+      <div class="rating-value">${rating.toFixed(1).slice(0,3)}</div>
       <div class="rating-body">${generateStars(rating)} </div>
       </div>
       <div class = "heard">
@@ -48,8 +48,9 @@ export function createGalleryCard(searchResults) {
       })
       .join('');
   } else {
+    console.log('afiseaza imaginea');
     markap = `<div>
-    <img class="img-card" src="./images/cook.webp" alt="No recepies here"/></div>`
+    <img class="not-found" src="./images/cook.webp" alt="No recepies here" width="400" height="400"/></div>`
   
   }
   return markap;

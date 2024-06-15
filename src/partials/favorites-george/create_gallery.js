@@ -30,9 +30,9 @@ if (searchResults.length) {
           <p class="info-text">${text}</p>
           </div>
       </div>
-      <button type="button" id='${_id}' class="btn-see-recipe">See recipe</button>
+      <button type="button" id='${_id}' class="btn-see-recipe bnt">See recipe</button>
       <div class = "rating">
-      <div class="rating-value">${rating.toString().slice(0,3)}</div>
+      <div class="rating-value">${rating.toFixed(1).slice(0,3)}</div>
     <div class="rating-body">${generateStars(rating)} </div>
       </div>
       <div class = "heard">
@@ -69,3 +69,5 @@ if (searchResults.length) {
 }
 listFav.innerHTML = markap;
 }
+
+
