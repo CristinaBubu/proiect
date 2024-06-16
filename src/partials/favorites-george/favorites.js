@@ -127,5 +127,3 @@ function seeRecipe(evt) {
   }
   evt.target.classList.toggle('bnt');
 }
-
-
