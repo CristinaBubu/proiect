@@ -8,3 +8,4 @@ import './partials/rating_modal-alina/rating.js';
 import './partials/rating_modal-alina/rating_api.js';
 import './partials/footer-cristina/footer_modal-cristina.js';
 import './partials/pagination-catalin/pagination.js';
+import './partials/modal-footer-echipa/modal-footer-echipa.js';

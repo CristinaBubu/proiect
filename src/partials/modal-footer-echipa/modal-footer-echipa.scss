@@ -1,0 +1,219 @@
+//// ADAUGAT SASS RAMON MODAL FOOTER POPUP
+
+.footer-modal-echipa {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+
+  width: 100%;
+  height: 100%;
+  z-index: 1010;
+
+  background: rgba(0, 0, 0, 0.7);
+
+  display: none;
+  // TEST
+  overflow: auto;
+}
+
+.modal-content-footer-echipa {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  width: 768px;
+  padding: 30px 15px 15px 15px;
+
+  border-radius: 15px;
+  background: white;
+  // background: #161616;
+
+  z-index: 1011;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  transition: all 300ms ease-in-out;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.close-footer {
+  position: absolute;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 24px;
+  height: 24px;
+
+  top: 15px;
+  right: 15px;
+
+  background: transparent;
+  border: none;
+
+  transition: background-color 400ms linear, transform 400ms ease-in-out;
+
+  cursor: pointer;
+}
+
+.close-footer:hover,
+.close-footer:focus {
+  transform: scale(1.5) rotate(90deg);
+}
+
+.close-footer > svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  stroke: #050505;
+
+  width: 24px;
+  height: 24px;
+}
+
+// @keyframes slideIn {
+//   from {
+//     transform: translateY(-100%);
+//     opacity: 0;
+//   }
+//   to {
+//     transform: translateX(0);
+//     opacity: 1;
+//   }
+// }
+
+.footer-modal-echipa-header {
+  color: #050505;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px; /* 122.222% */
+  text-transform: uppercase;
+}
+
+.footer-modal-echipa-text {
+  color: #050505;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  max-width: 768px;
+}
+
+.modal-footer-name {
+  color: #050505;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.modal-footer-role {
+  color: #050505;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.footer-modal-echipa-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+
+.footer-modal-echipa-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+
+  padding: 10px;
+  border-radius: 10px;
+  // DE STERS
+  width: 170px;
+  // height: 240px;
+
+  background-color: #9bb537;
+}
+
+.modal-footer-picture {
+  width: 120;
+  height: 120;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid #161616;
+}
+
+.svg-footer-echipa {
+  fill: #050505;
+}
+
+.cristina-footer {
+  background-image: url(/src/images/cristina.jpeg);
+}
+
+.aimee-footer {
+  background-image: url(/src/images/aimee.jpg);
+}
+
+.catalin-footer {
+  background-image: url(/src/images/catalin.jpg);
+}
+
+.craciun-footer {
+  background-image: url(/src/images/craciun.jpg);
+}
+
+.ramon-footer {
+  background-image: url(/src/images/ramon.jpeg);
+  background-position: center;
+}
+
+.george-footer {
+  background-image: url(/src/images/blanc-profile.png);
+  background-position: center;
+}
+
+.alina-footer {
+  background-image: url(/src/images/alina.jpeg);
+  background-position: center;
+}
+
+.modal-footer-svgs {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.modal-footer-link > svg {
+  fill: black;
+}
+
+@media screen and (425px <= width <= 767px) {
+  .modal-content-footer-echipa {
+    width: 426px;
+    scale: 0.6;
+
+    transform: translate(-50%, -50%) scale(0.6);
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .modal-content-footer-echipa {
+    width: 426px;
+    scale: 0.5;
+
+    transform: translate(-50%, -50%) scale(0.5);
+  }
+}
