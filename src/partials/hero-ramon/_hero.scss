@@ -1,6 +1,4 @@
 * {
-  margin: 0;
-  padding: 0;
   font-family: Inter;
   box-sizing: border-box;
 
@@ -21,6 +19,8 @@ margin-bottom: 70px;
   display: flex;
   flex-direction: row;
   gap: 32px;
+  padding: 40px;
+  justify-content: center;
 }
 
 .hero-left-side {
@@ -28,8 +28,8 @@ margin-bottom: 70px;
   display: flex;
   flex-direction: column;
   gap: 32px;
-  padding-left: 90px;
 }
+
 
 .hero-text-container {
   display: flex;
@@ -75,7 +75,7 @@ margin-bottom: 70px;
   padding: 14px 28px;
   justify-content: center;
   align-items: center;
-
+justify-content: center;
   border-radius: 15px;
   border: 1px solid #9bb537;
 
@@ -102,6 +102,7 @@ margin-bottom: 70px;
 .slide-wrapper {
 position: relative;
 max-width: 702px;
+
 
 }
 
