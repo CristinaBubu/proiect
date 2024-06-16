@@ -36,7 +36,8 @@ function seeRecipe(evt) {
       document.addEventListener('keydown', closoOnBackdrop);
       const favoriteBtn = document.querySelector('.js-favorite');
       const RatingBtn = document.querySelector('.js-rating');
-      if (JSON.parse(localStorage.getItem('favorite') &&JSON.parse(localStorage.getItem('favorite')).includes(id))) {
+      const inStorage = favoriteArr.some(({ _id }) => _id === id);
+      if (inStorage) {
         favoriteBtn.textContent = 'Remove from favorites';
       }
       favoriteBtn.addEventListener('click', addFavorite);
