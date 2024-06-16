@@ -217,3 +217,36 @@
     transform: translate(-50%, -50%) scale(0.5);
   }
 }
+
+
+[data-theme="dark"] .modal-content-footer-echipa {
+  background: #161616;
+}
+
+[data-theme="dark"] .close-footer > svg {
+  stroke: white;
+}
+
+[data-theme="dark"] [data-theme="dark"] .footer-modal-echipa-header {
+  color: white;
+}
+
+[data-theme="dark"] .footer-modal-echipa-text {
+  color: white;
+}
+
+[data-theme="dark"] .modal-footer-picture {
+  border: 2px solid white;
+}
+
+[data-theme="dark"] .modal-footer-name {
+  color: white;
+}
+
+[data-theme="dark"] .modal-footer-role {
+  color: white;
+}
+
+[data-theme="dark"] .modal-footer-link > svg {
+  fill: white;
+}
